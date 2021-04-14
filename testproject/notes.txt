@@ -14,3 +14,8 @@ After getting a linter installed, you can use the format keyshortcut above to ma
 
 You need to install the pylinter on the virtual environment as well. You can run the following for pylint:
 pip install pylint
+
+You can install code runner for keeping track of various Python vairable settings. YOu should see that 'Run' button
+in the top right of the editor
+Make sure you set it to use your personal environemnt in settings!(See video)
+(You can also look at the code runner documentation)
