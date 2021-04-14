@@ -1,0 +1,16 @@
+Notes for VS Code setup of Python: https://www.youtube.com/watch?v=-nh9rCzPJ20&list=PLdtk3tNgu15Q4sdZK0VeNPsLJyoQPpaOr&index=2
+
+I'm using the Python interpreter in this directory: C:\Users\JK696X\Documents\joekfolder\pythondevelopment\testproject\venv\Scripts\python.exe
+
+To run the virtual enviornment, you need administrator privalages, so open VS Code as Administrator
+
+To format your code in VS Code, you can type SHIFT + ALT + F
+
+For running the 'black' interpreter, first install it with 'pip install black'
+In VS Code, you can set it as your default linter doing the following:
+https://github.com/joslarson/black-vscode/issues/4
+
+After getting a linter installed, you can use the format keyshortcut above to make your python file pretty
+
+You need to install the pylinter on the virtual environment as well. You can run the following for pylint:
+pip install pylint
