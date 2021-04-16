@@ -100,6 +100,10 @@ from classfolder.mymodule import myModuleGreeting as myGreeting
 # you must import sys
 # sys.exit()
 
+# This is a sure fire way to test if the file you are running is the MAIN file
+if __name__ == "__main__":
+    print("This is the main")
+
 # Test with classes
 # classtest.greeting("Michael")
 # testMyClass = classtest.myClass("Example string")

@@ -30,6 +30,6 @@ Make sure you set it to use your personal environemnt in settings!(See video)
 (You can also look at the code runner documentation)
 
 To comment out sections of Python code in VS Studio, use CTRL + K + C to comment
-or use CTRL + K + U to uncomment
+or use CTRL + SHIFT + K to uncomment
 
 To get modules from files in other directories:

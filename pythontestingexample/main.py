@@ -1,5 +1,8 @@
 import unittest
 
+# __init.py not required here, if you're using Python 3.3 and above
+from testing import employee, test_calc
+
 
 class TestSum(unittest.TestCase):
     def test_sum(self):
