@@ -4,6 +4,15 @@ I'm using the Python interpreter in this directory: C:\Users\JK696X\Documents\jo
 
 To run the virtual enviornment, you need administrator privalages, so open VS Code as Administrator
 
+To create virtual environment(Standard virtual environment):
+1. cd into the folder of your project
+2. in the command line, type: python -m venv venv
+3. In VS Code, select the virtual environment selected in your project.
+4. It would be a good idea to install stuff you need on your virtual enviornment. FOr example: 
+pip install pylint
+5. Make sure VS Code is using your virtual environment in the bottom left hand corner
+
+
 To format your code in VS Code, you can type SHIFT + ALT + F
 
 For running the 'black' interpreter, first install it with 'pip install black'

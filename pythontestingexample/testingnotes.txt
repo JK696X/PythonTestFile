@@ -1,0 +1,5 @@
+Tutorial link https://realpython.com/python-testing/
+Tutorial Video: https://www.youtube.com/watch?v=6tNS--WetLI
+
+nose2 is a package that's good for testing MULTIPLE lines of tests
+To install: pip install nose2
