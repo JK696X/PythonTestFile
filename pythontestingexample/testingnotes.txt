@@ -16,3 +16,10 @@ For the output results, dots mean the test cases passed. An F indicates a failur
 
 Make sure that if there's a test case you didn't add to your testing,(after it broke your program),
 you'll always want to add that later!
+
+Use 'setup' and 'teardown' methods to keep order of your 100s of tests
+
+@classmethod means we're working with the class rather than the INSTANCE of the class
+
+setup and teardown classes are used for very system intensive test actions you want to perform.
+For example, setting up a DB connection, then tearing it down.
