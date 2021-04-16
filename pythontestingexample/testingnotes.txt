@@ -3,3 +3,16 @@ Tutorial Video: https://www.youtube.com/watch?v=6tNS--WetLI
 
 nose2 is a package that's good for testing MULTIPLE lines of tests
 To install: pip install nose2
+
+Methods need to be written with test_ for this to work
+
+Before testing, make sure you 'cd' into the testing directory, (in this case 'pythontestingexample', then 'testing')
+run the following:
+python -m unittest test_calc.py
+if you have that main addtiona at the bottom it runs ALL tests. You can run it all with this:
+python test_calc.py
+
+For the output results, dots mean the test cases passed. An F indicates a failure.
+
+Make sure that if there's a test case you didn't add to your testing,(after it broke your program),
+you'll always want to add that later!
